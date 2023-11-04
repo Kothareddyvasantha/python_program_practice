@@ -21,4 +21,18 @@ print(" the quotient when a divided by b is {}".format(quot_a_b))
 rem_a_b=a%b
 print("the reminder when a is divided by b is {}".format(rem_a_b))
 
+...
+Python Data Types
+Mutuable:Any changes can be made to existing one
+1.list
+2.Dictionary
+3.sets
+
+Immutuable:changes cannot be made to existing one
+1.string
+2.tuple
+
+...
+
+
 
