@@ -59,7 +59,23 @@ print("Fourteen index value of str is {}".format(strv_fourteen_index))
 strv_Fifteen_index =str_v[15]
 print("Fifteen index value of str is {}".format(strv_Fifteen_index))
 
+""""""
+str_c ="welcome to Git"
+ind0_to_ind4 = str_c[0:4]
+print("The value of string from zero to fourth index is {}".format(ind0_to_ind4))
+ind1_to_ind5 =str_c[1:5]
+print("The value of string from first to fifth index is {}".format(ind1_to_ind5))
+ind3_to_ind6 =str_c[3:6]
+print("The value of string from third to sixth index is {}".format(ind3_to_ind6))
 
+""""""
+str_d ="Github"
+len_str_d =len(str_d)
+print(len_str_d)
+slc_with_stp2 =str_d [0:6:2]
+print("The value of slicing str with step size 2 is {}".format(slc_with_stp2))
+slc_with_stp3 =str_d[0:6:3]
+print("The value of slicing str with step size 3 is {}".format(slc_with_stp3))
 
 
 
