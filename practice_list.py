@@ -42,17 +42,46 @@ lst_y.extend(["11","22"])
 print(" The list of lst_y after extending is {}".format(lst_y))
 
 ''''''''
-lst_z ="welcome to List"
+lst_z =["0","1","vasu", 456]
 ind0_to_ind3 =lst_z[0:3]
 print("The value of list from zero to fourth index is {}".format(ind0_to_ind3))
-ind1_to_ind8 =lst_z[1:8]
-print("The value of list from first to eigth index is {}".format(ind1_to_ind8))
+ind1_to_in5d =lst_z[1:5]
+print("The value of list from first to fifth index is {}".format(ind1_to_in5d))
 
 """"""
-lst_w ="welcome"
+lst_w =["1", "2", "nayana", 123]
 len_lst_w =len(lst_w)
 print(len_lst_w)
 slc_with_stp2 =lst_w[0:7:2]
 print("The value of slicing str w with step size 2 is {}".format(slc_with_stp2))
 slc_with_stp3 =lst_w[0:7:3]
 print("The value of slicing str w with step size 3 is {}".format(slc_with_stp3))
+
+#slicing all from right or left
+ind2_to_all =lst_w[2]
+print("value from 2 index to all is {}".format(ind2_to_all))
+till_ind4 =lst_w[:4]
+print("value till 4 index is {}".format(till_ind4))
+
+#Reverse indexing
+lst_g = "program"
+ind1_neg =lst_g[-1]
+print("value of negative index one is {}".format(ind1_neg))
+ind2_neg =lst_g[-2]
+print("value of negative index two is {}".format(ind2_neg))
+ind3_neg =lst_g[-3]
+print("value of negative index three is {}".format(ind3_neg))
+ind4_neg =lst_g[-4]
+print("value of negative index four is {}".format(ind4_neg))
+ind5_neg =lst_g[-5]
+print("value of negative index five is {}".format(ind5_neg))
+ind6_neg =lst_g[-6]
+print("value of negative index six is {}".format(ind6_neg))
+ind7_neg =lst_g[-7]
+print("value of negative index seven is {}".format(ind7_neg))
+
+#Reverse slicing
+lst_g_slc =lst_g[3:1:-1]
+print("value of slicing from one to three in reverse format is {}".format(lst_g_slc))
+lst_g_slc =lst_g[4:3:-1]
+print("value of slicing from three to four in reverse format is{}".format(lst_g_slc))

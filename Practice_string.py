@@ -77,6 +77,37 @@ print("The value of slicing str with step size 2 is {}".format(slc_with_stp2))
 slc_with_stp3 =str_d[0:6:3]
 print("The value of slicing str with step size 3 is {}".format(slc_with_stp3))
 
+# slicing all from right or left
+ind3_to_all =str_d[3:]
+print("Value from 3 rd index to all is {}".format(ind3_to_all))
+till_ind5 =str_d[:5]
+print("value till 5th index is {}".format(till_ind5))
+
+#Reverse Indexing
+str_e ="github"
+ind1_neg =str_e[-1]
+print("Value of negative index one is {}".format(ind1_neg))
+ind2_neg =str_e[-2]
+print("value of negative index two is {}".format(ind2_neg))
+ind3_neg =str_e[-3]
+print("value of negative index three is {}".format(ind3_neg))
+ind4_neg =str_e[-4]
+print("value of negative index four is {}".format(ind4_neg))
+ind5_neg =str_e[-5]
+print("value of negative index five is {}".format(ind5_neg))
+ind6_neg =str_e[-6]
+print("value of negative index six is {}".format(ind6_neg))
+
+#Reverse slicing
+str_e_slc =str_e[5:3:-1]
+print("Value of slicing from 3 to 5 in reverse format{}".format(str_e_slc))
+
+str_f ="Python"
+str_f_slc =str_f[5:2:-1]
+print("value of slicing from 2 to 5 in reverse format{}".format(str_f_slc))
+
+
+
 
 
 
