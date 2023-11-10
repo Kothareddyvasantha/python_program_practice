@@ -85,3 +85,54 @@ lst_g_slc =lst_g[3:1:-1]
 print("value of slicing from one to three in reverse format is {}".format(lst_g_slc))
 lst_g_slc =lst_g[4:3:-1]
 print("value of slicing from three to four in reverse format is{}".format(lst_g_slc))
+
+#list concatination
+lst_a ="Hi"
+lst_b ="Team"
+lst_res =lst_a+lst_b
+print("value after concatinating is {}".format(lst_res))
+
+#capitalize -it will capitalizes first character of string
+lst_a ="vasantha"
+a =lst_a.capitalize()
+print("value after capitalizing is {}".format(a))
+
+#upper case
+upp_case =lst_a.upper()
+print("upper case values are {}".format(upp_case))
+
+#lower case
+low_case =lst_a.lower()
+print("lower case values are {}".format(low_case))
+
+#Title
+lst_x ="welcome to class"
+tit_lst =lst_x.title()
+print("the list is title {}".format(tit_lst))
+
+#to check whether title or not
+print("the list is title {}".format(lst_x.istitle()))
+print("the list is title {}".format(tit_lst.istitle()))
+
+#count
+lst_a ="program"
+print("the count of p in list is {}".format(lst_a.count("p")))
+print("the count of g in list is {}".format(lst_a.count("g")))
+
+#index
+print("the index value of p in list a is {}".format(lst_a.index("p")))
+print("the index value of m in list a is {}".format(lst_a.index("m")))
+
+#starts with
+lst_a ="welcome"
+print("the list is starting with h is {}".format(lst_a.startswith("h")))
+print("the list is starting with w is {}".format(lst_a.startswith("w")))
+
+#ends with
+lst_b ="python"
+print("the list is ends with n is {}".format(lst_b.endswith("n")))
+print("the list is ends with p is {}".format(lst_b.endswith("p")))
+
+
+
+

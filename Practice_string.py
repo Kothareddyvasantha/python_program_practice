@@ -106,6 +106,68 @@ str_f ="Python"
 str_f_slc =str_f[5:2:-1]
 print("value of slicing from 2 to 5 in reverse format{}".format(str_f_slc))
 
+# string concatination
+str1 ="welcome"
+str2 ="vasu"
+str_res =str1 +str2
+print("value after concatinating is {}".format(str_res))
+
+#capitalize -capitalize first character of string
+str_a ="vasantha"
+a =str_a.capitalize()
+print("value after capitalizing string is {}".format(a))
+#upper case-coverts string into upper case
+upp_case =str_a.upper()
+print("upper case values are {}".format(upp_case))
+str_b ="PyChArM"
+str_b = "pYcHaRm"
+low_case = str_b.lower()
+print("Lower case values are {}".format(low_case))
+
+str_c="program"
+res =str_c[0:2]+str_c[1:4].upper()+str_c[-1]
+print("value after capitalizing only 1 is {}".format(res))
+
+# check whether given string is upper
+print("The string is upper {}".format(res.isupper()))
+str_upp ="VASU"
+print("The string is upper {}".format(str_upp.isupper()))
+# check whether given string is lower
+print("the string is lower {}".format(res.islower()))
+str_low ="vasu"
+print("the string is lower {}".format(str_low.islower()))
+
+#Title
+str_x ="welcome to Github"
+tit_str =str_x.title()
+print("the value converting into title {}".format(tit_str))
+
+# to check whether title or not
+print("the string is title {}".format(str_x.istitle()))
+print("the string is title {}".format(tit_str.istitle()))
+
+#count
+str_a ="vasantha"
+print(" the count of v in string is {}".format(str_a.count("v")))
+print("the count of h in string is {}".format(str_a.count("h")))
+
+str_x ="welcome to class"
+print("the count of 2 in string is {}".format(str_x.count("2")))
+print("the count of 1 in string is {}".format(str_x.count("1")))
+
+#index
+print("index value of s in str x is {}".format(str_x.index("s")))
+print("index value of l in str x is {}".format(str_x.index("l")))
+
+#starts with
+str_a ="github"
+print("the string is starting with g is {}".format(str_a.startswith("g")))
+print("the string is starting with i is {}".format(str_a.startswith("i")))
+
+#ends with
+str_b ="welcome"
+print("the string is ends with e is {}".format(str_b.endswith("e")))
+print("the string is ends with l is {}".format(str_b.endswith("l")))
 
 
 
