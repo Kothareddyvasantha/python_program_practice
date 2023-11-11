@@ -10,7 +10,7 @@ type_str =type(str_an)
 print("The type of variable str_an is {}".format(type_str))
 
 
-
+#indexing
 str_x ="python"
 strx_zeroeth_ind =str_x[0]
 print("zeroeth index value of strx is {}".format(strx_zeroeth_ind))

@@ -64,7 +64,7 @@ till_ind4 =lst_w[:4]
 print("value till 4 index is {}".format(till_ind4))
 
 #Reverse indexing
-lst_g = "program"
+lst_g = ["a", "b", "vasantha", 123]
 ind1_neg =lst_g[-1]
 print("value of negative index one is {}".format(ind1_neg))
 ind2_neg =lst_g[-2]
@@ -87,13 +87,13 @@ lst_g_slc =lst_g[4:3:-1]
 print("value of slicing from three to four in reverse format is{}".format(lst_g_slc))
 
 #list concatination
-lst_a ="Hi"
-lst_b ="Team"
+lst_a =["1", "2", "welcome","a","b"]
+lst_b =["1", "2", "python"]
 lst_res =lst_a+lst_b
 print("value after concatinating is {}".format(lst_res))
 
 #capitalize -it will capitalizes first character of string
-lst_a ="vasantha"
+lst_a =["a","b","vAsu",112]
 a =lst_a.capitalize()
 print("value after capitalizing is {}".format(a))
 
@@ -106,7 +106,7 @@ low_case =lst_a.lower()
 print("lower case values are {}".format(low_case))
 
 #Title
-lst_x ="welcome to class"
+lst_x =["a","b","welcome to class",321]
 tit_lst =lst_x.title()
 print("the list is title {}".format(tit_lst))
 
@@ -115,7 +115,7 @@ print("the list is title {}".format(lst_x.istitle()))
 print("the list is title {}".format(tit_lst.istitle()))
 
 #count
-lst_a ="program"
+lst_a =["x","y","program",123]
 print("the count of p in list is {}".format(lst_a.count("p")))
 print("the count of g in list is {}".format(lst_a.count("g")))
 
@@ -124,12 +124,12 @@ print("the index value of p in list a is {}".format(lst_a.index("p")))
 print("the index value of m in list a is {}".format(lst_a.index("m")))
 
 #starts with
-lst_a ="welcome"
+lst_a =["c","d","welcome",456]
 print("the list is starting with h is {}".format(lst_a.startswith("h")))
 print("the list is starting with w is {}".format(lst_a.startswith("w")))
 
 #ends with
-lst_b ="python"
+lst_b =["a","b","python",123]
 print("the list is ends with n is {}".format(lst_b.endswith("n")))
 print("the list is ends with p is {}".format(lst_b.endswith("p")))
 
