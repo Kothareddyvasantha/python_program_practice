@@ -105,7 +105,7 @@ print("the tuple is starting with h is {}".format(tpl_c.startswith("h")))
 tpl_d =("c","d","welcome",234)
 print("The tuple is ends with e is {}".format(tpl_d.endswith("e")))
 print("The tuple is ends with l is {}".format(tpl_d.endswith("l")))
-
+print("The tuple is ends with c is {}".format(tpl_d.endswith("c")))
 
 
 
