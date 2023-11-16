@@ -170,14 +170,16 @@ print("the string is ends with e is {}".format(str_b.endswith("e")))
 print("the string is ends with l is {}".format(str_b.endswith("l")))
 
 # split
-str_a ="welcome to class"
-str_a.split =str_a.split(" ")
-print("value of string after splitting is {}".format(str_a.split))
-print(" the type after splitting string is {}".format(type(str_a.split)))
+str_a = "welcome to class"
+str_a_split = str_a.split(" ")
+print("value of string after splitting is {}".format(str_a_split))
+print("the type after splitting string is {}".format(type(str_a.split)))
 
 # join
-str_b =" ".join(str_a.split)
+str_b = " ".join(str_a_split)
 print("the value after joining list of elements is {}".format(str_b))
-str_c ="John. Welcome"
-str_c_spl =str_c.split(" . ")
-print("the value after splitting string with  . is {}".format(str_c_spl))
+str_c = "john. welcome!"
+str_c_spl = str_c.split(" . ")
+print("the value after splitting strong with . is {}".format(str_c_spl))
+
+
