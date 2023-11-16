@@ -134,5 +134,48 @@ print("the list is ends with n is {}".format(lst_b.endswith("n")))
 print("the list is ends with p is {}".format(lst_b.endswith("p")))
 
 
+lst_a =["1","2","3","a"]
+lst_a.append(4)
+print("value of lst_a after appending is {}".format(lst_a))
+lst_a.extend["4","5"]
+print("value of lst_a after extending is {}".format(lst_a))
+
+lst_a = ["1","2","3","4"]
+lst_a.append(5)
+print("value of lst_a after appending is {}".format(lst_a))
+
+
+# item reversing in list
+lst_a ="welcome to class"
+lst_a_split =lst_a.split(" ")
+print(" the list after splitting the string is {}",format(lst_a_split))
+
+
+list_x =[1,2,["a","b", "python"],3,4]
+lst_x[2][2][::-1]
+print(lst_x)
+lst_z = ["a", "b", ["john", "class", "Alex"], 4, 5, 7]
+lst_z[1][2][::-1]
+print(lst_z)
+
+#deleting methods
+
+#clear - it clears all the elements in the lists
+lst_a =[2,3,4]
+lst_a.clear()
+print("the list after clearing is {}".format(lst_a))
+
+# pop - it deletes last index value
+lst_b.pop()
+print("the list after pop is {}".format(lst_b))
+
+#remove - we can specify which item to be delted from the list
+lstc = ["John", "Bob", "Alex", "xyz"]
+lstc.remove("Bob")
+print(" the value after deleting the bob is {}")
+
+
+
+
 
 
