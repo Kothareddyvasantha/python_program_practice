@@ -180,6 +180,6 @@ str_b = " ".join(str_a_split)
 print("the value after joining list of elements is {}".format(str_b))
 str_c = "john. welcome!"
 str_c_spl = str_c.split(" . ")
-print("the value after splitting strong with . is {}".format(str_c_spl))
+print("the value after splitting string with . is {}".format(str_c_spl))
 
 

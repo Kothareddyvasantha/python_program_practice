@@ -62,50 +62,27 @@ tpl_b =("a","b","to class",456)
 tpl_res =tpl_a+tpl_b
 print("value after concatinating is {}".format(tpl_res))
 
-#capitalizing
-tpl_a =("1","2","pycHarm","a","b")
-a=tpl_a.capitalize()
-print("Value after capitalizing tuple is {}".format(a))
 
-#upper case
-upp_case =tpl_a.upper()
-print("the upper case values are {}".format(upp_case))
-#lower case
-tpl_b =("x","y","Hello",1,2)
-low_case =tpl_b.lower()
-print("the lower case values are {}".format(low_case))
 
-#to check given tpl is lower
-tpl_low =("x","y","hello",2,3)
-print("The tuple is lower {}".format(tpl_low.islower()))
 
-#title
-tpl_x =("c","d","welcome to class",1,2)
-tit_tpl =tpl_x.title()
-print("value converting into title is {}".format(tit_tpl))
 
-# to check whether it is title or not
-print("The tuple is title {}".format(tpl_x.istitle()))
-print("The tuple is title {}".format(tit_tpl.istitle()))
+
+
+
 
 #count
 tpl_a =("a","b","vasantha",1,2,3)
 print("count of tuple v is {}".format(tpl_a.count("v")))
 print("count of tuple a is {}".format(tpl_a.count("a")))
 
-#index
-print("index value of v in tuple is {}".format(tpl_a.index("v")))
-print("index value of a in tuple is {}".format(tpl_a.index("a")))
 
-#starts with
-tpl_c =("a","b","github",123)
-print("the tuple is starting with g is {}".format(tpl_c.startswith("g")))
-print("the tuple is starting with h is {}".format(tpl_c.startswith("h")))
-#ends with
-tpl_d =("c","d","welcome",234)
-print("The tuple is ends with e is {}".format(tpl_d.endswith("e")))
-print("The tuple is ends with l is {}".format(tpl_d.endswith("l")))
-print("The tuple is ends with c is {}".format(tpl_d.endswith("c")))
+# index
+tpl_a =("John", "Alex", "Bob", "xyz")
+ind_bob =tpl_a.index("Bob")
+print("index value of bob is {}".format(ind_bob))
 
+#count
+cnt_john = tpl_a.count("John")
+print("the count of john in tuple is {}".format(cnt_john))
 
 
