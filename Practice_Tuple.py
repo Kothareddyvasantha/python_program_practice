@@ -62,14 +62,6 @@ tpl_b =("a","b","to class",456)
 tpl_res =tpl_a+tpl_b
 print("value after concatinating is {}".format(tpl_res))
 
-
-
-
-
-
-
-
-
 #count
 tpl_a =("a","b","vasantha",1,2,3)
 print("count of tuple v is {}".format(tpl_a.count("v")))
