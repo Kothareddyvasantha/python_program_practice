@@ -47,6 +47,14 @@ list_cube =[i**3 for i in range(1, 10)]
 print("the cube from range 1 to 10 is {}".format(list_cube))
 print([i**3 for i in range(1, 10)])
 
+tpl_a = (2, 5, 7, 8)
+tpl_b = (7, 8, 9, 2)
+len_tpl_a = len(tpl_a)
+sum_tpl_a_b =[]
+for i in range (0, len_tpl_a):
+    summation = tpl_a[i]+tpl_b[i]
+    sum_tpl_a_b.append(summation)
+ print("the sum of two tuples are {}".format(sum_tpl_a_b))
 
 
 
