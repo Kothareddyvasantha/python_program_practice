@@ -94,13 +94,6 @@ print(lst_y)
 lst_z = ["a", "b", ["john", "class", "Alex"], 4, 5, 7]
 lst_z[2][1] = lst_z[2][1][::-1]
 print(lst_z)
-
-
-
-
-
-
-
 #deleting methods
 
 #clear - it clears all the elements in the lists

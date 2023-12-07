@@ -34,7 +34,7 @@ print("the reverse string is {}".format(rev_str))
 # squares with list comprehension
 lst_to_sqr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 sqrd_lst = [i**2 for i in lst_to_sqr]
-print("the sqared value of list items is {}".format(sqrd_lst))
+print("the squared value of list items is {}".format(sqrd_lst))
 
 for i in range(0, 5):
     print(i)

@@ -77,5 +77,40 @@ else:
 
 
 
+# list of even numbers and list of odd numbers from 0 to 20
+# even_lst = []    odd_lst = []
+even_lst = []
+odd_lst = []
+for i in range(0, 20):
+    if i % 2 == 0:
+        even_lst.append(i)
+    else:
+        odd_lst.append(i)
+print("The even numbers from 0 to 20 is {}".format(even_lst))
+print("The odd numbers from 0 to 20 is {}".format(odd_lst))
+
+#factorial of 6
+num = int(input("Enter the value "))
+fact =1
+for i in range(1,num+1):
+    fact = fact*i
+    print("the factorial number is {}".format(fact))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
