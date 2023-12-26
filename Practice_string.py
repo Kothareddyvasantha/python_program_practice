@@ -183,3 +183,6 @@ str_c_spl = str_c.split(" . ")
 print("the value after splitting string with . is {}".format(str_c_spl))
 
 
+str_a = "welcometoclass"
+str_b = str(set(str_a))
+print("the value after removing duplicates is {}".format(str_b))

@@ -96,11 +96,29 @@ for i in range(1,num+1):
     fact = fact*i
     print("the factorial number is {}".format(fact))
 
+# remove duplicates in a string
+str_a = "welcometoclass"
+str_b = str(set(str_a))
+print("the value after removing duplicates is {}".format(str_b))
 
+# write a program to list all positive and negative numbers
+numbers = [1,4,-1,6,-3,8,10,-9,20,-40,21,45,-23,-12,45,23,-34,-56,12]
+positive_numbers = []
+negative_numbers = []
+for num in numbers:
+    if num > 0:
+        positive_numbers.append(num)
+    else:
+        negative_numbers.append(num)
+print("Positive numbers:", positive_numbers)
+print("Negative numbers:", negative_numbers)
 
-
-
-
+# multiples of 3 from range 100 to 1000
+multiples_of_3 = []
+for i in range(100,1000):
+    if i % 3 == 0:
+     multiples_of_3.append(i)
+print("multiples of 3 between 100 to 1000 is {}".format(multiples_of_3))
 
 
 

@@ -104,6 +104,57 @@ for i in str_y:
     rev_str = i+rev_str
 print("the value after reversing string is {}".format(rev_str))
 
+"""
+*
+**
+***
+****
+*****
+"""
+n=5
+#output
+n=5
+lst =[]
+for i in range(1, n+1):
+    lst.append("*"*i)
+print(lst)
+print("\n".join(lst))
+
+"""
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+"""
+n=5
+lst =[]
+for i in range(1, n+1):
+    lst.append("*"*i)
+print(lst)
+print("\n".join(lst))
+for i in range(n-1,0,-1):
+    lst.append("*"*i)
+print(lst)
+print("\n".join(lst))
+
+#prime numbers from 1 to 20
+primes = []
+for num in range(2,21):
+    for i in range(2, int(num**0.5)+1):
+        if num % i == 0:
+            break
+    else:
+        primes.append(num)
+print("the prime numbers from 1 to 20:",primes)
+
+
+
+
 
 
 
